@@ -21,7 +21,7 @@ const regularUser = {
 }
 //console.log(regularUser.fullname.userfullname.lastname)
 
-const obj1 = {1:"a", 2: "b"}
+const obj1 = {1:"a", 2: "b"}                     //go to console on google and 'const obj1 = {1:"a", 2: "b"}'  past it. then enter and again type 'obj1' then enter and then access all properties.              
 const obj2 = {3:"a", 4: "b"}
 const obj4 = {5:"a", 6: "b"}
 //const obj3 = {obj1,obj2}
@@ -50,6 +50,38 @@ console.log(tinderUser);
 console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
+
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
-//go to console on google and 'const obj1 = {1:"a", 2: "b"}'  past it. then enter and again type 'obj1' then enter and then access all properties
+
+
+const course = {
+    coursename: "js-its-me",
+    coursefee: "999999",
+    courseinstructor: "Aditya"
+}
+// destructuring of object 
+
+console.log(course.courseinstructor)
+console.log(course.coursefee)
+
+const {courseinstructor : chhotu} = course
+ const {coursefee : fitu} = course
+console.log(chhotu)  
+console.log(fitu)
+                                        //json
+////////////API as object
+
+//{
+//    ""name": "hitesh",
+//    "coursename": "js in hindi",
+//   " price": "free"
+//}
+
+
+////////////API as array 
+[
+    {},
+    {},
+    {}
+]
