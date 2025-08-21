@@ -1,3 +1,7 @@
+//conversion functions are number(),boolean(),string(),+ (unary plus) this plus work same as this number()
+
+
+
 let score = undefined
 
 //const {score} = req.body
@@ -29,6 +33,7 @@ console.log(typeof (booleanIsLoggedIn))
 let someNumber = 8
 let stringNumber = String(someNumber)
 console.log(stringNumber)
+console.log(typeof(someNumber))
 console.log(typeof (stringNumber))
 
 //like above all these conversion we can convert many more datatypes into one another.
@@ -60,7 +65,7 @@ console.log(1+2+"3")
 console.log(1+"2"+3)
 console.log(3+4*6%3)
 
-console.log(+true)
+console.log(+true)           //here + is unary plus convert value into number. hence true converted to 1. and " " this empty string converted into 0;
 //console.log(true+)
 console.log(+" ")
 

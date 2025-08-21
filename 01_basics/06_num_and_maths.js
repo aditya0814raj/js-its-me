@@ -16,6 +16,8 @@ console.log(hundreds.toLocaleString())
 
 
 //+++++++++++++++++++++++++++++        MATHS        +++++++++++++++++++++++++++++++++++++++++++++++++++//
+// 
+/*
 console.log(Math)
 console.log(Math.)
 console.log(Math.)
@@ -23,7 +25,7 @@ console.log(Math.)
 console.log(Math.)
 console.log(Math.)
 console.log(Math.)
-
+*/
 
 
 

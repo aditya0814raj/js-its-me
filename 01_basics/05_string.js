@@ -9,6 +9,7 @@ const gameName = new String('hiteshhc')
 
 console.log(gameName[0])
 console.log(gameName.__proto__)
+console.log(name.__proto__)
 
 
 console.log(gameName.length)

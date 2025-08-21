@@ -10,7 +10,7 @@ let state
 let myvariable = null
 
 //number = 2 to power 53
-//bigint
+//big int
 //string = " "
 //boolean = true/false
 //null = standalone value ( type of = object)
@@ -23,3 +23,4 @@ console.log(typeof age)
 console.log(typeof false)
 console.log(typeof state)
 console.log(typeof null)
+console.log(typeof myvariable)
