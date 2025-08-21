@@ -1,5 +1,5 @@
 //singleton 
-//object.create
+//object.create as constructor 
 
 //object literals
 const mySym = Symbol("key1")           //  "symbol"  declaration.
@@ -22,7 +22,7 @@ console.log(JsUser.mySym)
 console.log(JsUser[mySym])
 
 JsUser.email = "hitesh@chatgpt.com"  // change in email ,btw uhh can make edit any element of (JsUser)
-//Object.freeze(JsUser)           // to lock my elements of object (JsUser) so tht no can edit it or overwrite it.
+//Object.freeze(JsUser)           // to lock my elements of object (JsUser) so tht no one can edit it or overwrite it.
 JsUser.email = "hitesh@microsoft.com"
 console.log(JsUser)
 
